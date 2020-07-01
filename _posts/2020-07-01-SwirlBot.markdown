@@ -1,0 +1,12 @@
+---
+layout: blog-post
+title:  "LEGO SPIKE Prime SwirlBot"
+img: /img/2020/2020-07-01-SwirlBot.jpg
+author: Dimitri Dekyvere
+type: youtube
+id: dbADsow2jto
+track: robôs
+tags: lego, spike, robô
+sticky: 1
+---
+
