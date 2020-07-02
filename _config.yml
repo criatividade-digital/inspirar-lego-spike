@@ -17,7 +17,7 @@ title: INSPIRAR - LEGO SPIKE Prime
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Banco de projetos para inspirar as suas construções com LEGO SPIKE Prime.
-baseurl: "/inpirar-lego-spike" # the subpath of your site, e.g. /blog
+baseurl: "/inspirar-lego-spike" # the subpath of your site, e.g. /blog
 url: "https://criatividade.digital" # 
 twitter_username: jekyllrb
 github_username:  jekyll
