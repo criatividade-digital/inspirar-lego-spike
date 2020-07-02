@@ -9,6 +9,6 @@ width: 1190
 height: 840
 original: https://youtu.be/MCVW2Uqanlw
 category: Veiculos
-tags: [LEGO, SPIKE, Veículos]
+tags: [LEGO, SPIKE, Veículos, Expansion Set]
 ---
 Developed in collaboration with Project Bucephalus, Bike Prime is a fun and unique demonstration of a self-balancing motorbike design on the LEGO® Education SPIKE™ Prime platform.

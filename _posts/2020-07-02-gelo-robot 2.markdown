@@ -1,0 +1,12 @@
+---
+layout: blog-post
+title:  "GELO robot"
+img: /img/2020/2020-07-02-gelo-robot-2.jpg
+author: Ahmad Sahar
+type: youtube
+videoid: BfHbXzlJ69Y
+original: https://youtu.be/BfHbXzlJ69Y
+category: Criaturas
+tags: [LEGO, SPIKE, Criaturas, Expansion Set]
+---
+SPIKEGelo, uma versão do cão robô Gelo do próximo conjunto 51515 Não funciona muito bem porque os motores grandes se transformam em uma velocidade ligeiramente diferente comparada com os motores médios, então as pernas frontal e traseira eventualmente perdem sincronização.

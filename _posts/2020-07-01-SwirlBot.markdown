@@ -7,7 +7,7 @@ type: youtube
 videoid: dbADsow2jto
 original: https://youtu.be/dbADsow2jto
 category: Robos
-tags: [LEGO, SPIKE, Robôs]
+tags: [LEGO, SPIKE, Robôs, Expansion Set]
 sticky: 1
 ---
 Meet my LEGO Education Spike Prime swirling robot. Fun with mechanics and coding!
