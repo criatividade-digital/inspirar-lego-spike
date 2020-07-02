@@ -4,9 +4,11 @@ title:  "LEGO SPIKE Prime SwirlBot"
 img: /img/2020/2020-07-01-SwirlBot.jpg
 author: Dimitri Dekyvere
 type: youtube
-id: dbADsow2jto
-track: robôs
-tags: lego, spike, robô
+videoid: dbADsow2jto
+original: https://youtu.be/dbADsow2jto
+category: Robos
+tags: [LEGO, SPIKE, Robôs]
 sticky: 1
 ---
-
+Meet my LEGO Education Spike Prime swirling robot. Fun with mechanics and coding!
+Want to build your own LEGO SPIKE Prime SwirlBot? See my "How To Build" video, the link to the free PDF building instructions is in the description of that video.

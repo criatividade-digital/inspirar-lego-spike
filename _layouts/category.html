@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta property="og:url"                content="https://spibr.criatividade.digital{{ page.url }}" />
+		<meta property="og:type"               content="website" />
+		<meta property="og:title"              content="{{site.title}}" />
+		<meta property="og:description"        content="{{site.description}}" />
+		<!--<meta property="og:image"              content="{{site.url}}{{site.baseurl}}{{page.img}}" />
+		-->
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>{{site.title}}</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet"> 
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href={{"css/bootstrap.min.css" | relative_url}}/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href={{"css/font-awesome.min.css" | relative_url}}>
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href={{"css/style.css" | relative_url}}/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		
+		<!-- Header -->
+		{% include cabecalho.html %} 
+
+			
+			<!-- Page Header -->
+			<div class="page-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
+							<ul class="page-header-breadcrumb">
+								<li><a href="{{ 'index.html' | relative_url}}">Início</a></li>
+								<li>{{page.acentuado}}</li>
+							</ul>
+							<h1>{{page.acentuado}}</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Page Header -->
+		<!-- /Header -->
+		
+		<!-- section -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-8">
+						<div class="row">
+										
+							<div class="clearfix visible-md visible-lg"></div>
+							
+							<!-- ad -->
+							<!--
+							<div class="col-md-12">
+								<div class="section-row">
+									<a href="#">
+										<img class="img-responsive center-block" src="./img/ad-2.jpg" alt="">
+									</a>
+								</div>
+							</div>
+							-->
+							<!-- ad -->
+							
+							<!-- post -->
+							{% for post in site.posts %} 
+							{% if post.category == page.categoria %}
+							<div class="col-md-12">
+								<div class="post post-row">
+									<a class="post-img" href="{{ post.url | relative_url }}"><img src="{{ post.img | relative_url }}" alt=""></a>
+									<div class="post-body">
+										<div class="post-meta">
+											{% assign url_categoria = "/categoria/" %}
+											{% assign url_categoria = url_categoria | append: post.category %}
+											{% assign url_categoria = url_categoria | downcase %}
+											<a class="post-category cat-{{post.category}}" href="{{ url_categoria | relative_url }}">{{post.category}}</a>
+											<span class="post-date">{% include translated_date.html date=post.date format=site.date_format lang=site.lang%}</span>
+										</div>
+										<h3 class="post-title"><a href={{"blog-post.html" | relative_url}}>{{post.title}}</a></h3>
+										<p>{{post.excerpt}}</p>
+									</div>
+								</div>
+							</div>
+							{% endif %}
+							{% endfor %}
+							<!-- /post -->
+							<!--
+							<div class="col-md-12">
+								<div class="section-row">
+									<button class="primary-button center-block">Load More</button>
+								</div>
+							</div>
+							-->
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<!-- ad -->
+						<!--
+						<div class="aside-widget text-center">
+							<a href="#" style="display: inline-block;margin: auto;">
+								<img class="img-responsive" src={{"./img/ad-1.jpg" | relative_url}} alt="">
+							</a>
+						</div>
+						-->
+						<!-- /ad -->
+						
+						<!-- catagories -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Categorias</h2>
+							</div>
+							<div class="category-widget">
+								<ul>
+									{% assign categoria_ordenada = site.categories | sort %}
+									{% for categoria in categoria_ordenada %}
+										{% assign url_categoria = "/categoria/" %}
+										{% assign url_categoria = url_categoria | append: categoria[0] %}
+										{% assign url_categoria = url_categoria | downcase %}
+										<li><a href="{{url_categoria | relative_url}}" class="cat-{{categoria[0]}}">{{categoria[0]}}<span>{{ categoria | last | size }}</span></a></li>
+									{% endfor %}
+								</ul>
+							</div>
+						</div>
+						<!-- /catagories -->
+						
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->
+
+		<!-- Footer -->
+		{% include rodape.html %} 
+		<!-- /Footer -->
+
+		<!-- jQuery Plugins -->
+		<script src={{"js/jquery.min.js" | relative_url}}></script>
+		<script src={{"js/bootstrap.min.js" | relative_url}}></script>
+		<script src={{"js/main.js" | relative_url}}></script>
+
+	</body>
+</html>
