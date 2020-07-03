@@ -7,7 +7,7 @@ type: facebook
 videolink: https://www.facebook.com/100002224886819/videos/pcb.1138275856550645/3262317200519077/
 original: https://www.facebook.com/groups/SPIKEcommunity/permalink/1138275856550645/
 category: Miscelania
-tags: [LEGO, SPIKE, Ultrassonico]
+tags: [LEGO, SPIKE, Expansion Set, Python]
 ---
 Jogo de cesta.
 Esta é uma das minhas criações com SPIKE PRIME. Nunca pensei em usar os eixos flexíveis como rede do cesto, parece que temos uma nova forma de usá-lo!
