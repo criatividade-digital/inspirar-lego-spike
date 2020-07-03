@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title:  "GELO robot"
+title: Marble game
 img: /img/2020/2020-07-02-marble-game.jpg
 author: ABCSuccessLab
 type: youtube
