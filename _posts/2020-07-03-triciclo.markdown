@@ -6,7 +6,7 @@ author: Ahmad Sahar
 type: image
 original: https://www.facebook.com/groups/SPIKEcommunity/permalink/1132768293768068/
 category: Veiculo
-tags: [LEGO, SPIKE, Expansion Set]
+tags: [LEGO, SPIKE]
 ---
 Fiz o meu primeiro modelo no stud.io! Thanks to Philo Hurbain for his kind assistance.
 [Instruções para construção pdf (not very good)](https://drive.google.com/drive/mobile/folders/1-u0Rd1OaomxaIvC3nyRr7pUt-1cjaZfi){:target="_blank"}
