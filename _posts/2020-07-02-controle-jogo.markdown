@@ -4,6 +4,7 @@ title:  Controle Jogo Corrida
 img: /img/2020/2020-07-02-controle-jogo.jpeg
 author: José Carlos Junior
 type: instragram
+original: https://www.instagram.com/p/CBbhG32F9ND/
 category: Miscelania
 tags: [LEGO, SPIKE]
 ---

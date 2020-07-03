@@ -35,10 +35,28 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-
+		<!-- Facebook Pixel Code -->
+			<script>
+				!function(f,b,e,v,n,t,s)
+				{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+				if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+				n.queue=[];t=b.createElement(e);t.async=!0;
+				t.src=v;s=b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t,s)}(window, document,'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+				fbq('init', '566147870764671');
+				fbq('track', 'PageView');
+				</script>
+				<noscript><img height="1" width="1" style="display:none"
+				src="https://www.facebook.com/tr?id=566147870764671&ev=PageView&noscript=1"
+				/></noscript>
+			<!-- End Facebook Pixel Code -->
     </head>
 	<body onload="AnimarBateria()">
-		
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v7.0&appId=2385506498151963&autoLogAppEvents=1" nonce="pbBOfZZz"></script>
+	
 		<!-- Header -->
 		{% include cabecalho.html %} 
 		<!-- /Header -->
@@ -49,7 +67,7 @@
 			<div class="container">
 				<!-- row -->
 				<div class="row">
-					<!-- Post content -->
+					<!-- Post content --> 
 					<div class="col-md-8">
 						<div class="section-row "> <!--retirei a classe "sticky-container" que coloca os botões de sharing à esquerda-->
 							<div class="main-post">
@@ -63,9 +81,13 @@
 
 								{% case page.type %}
 								{% when 'youtube' %}
-								<center>
-									<iframe class="d-block mx-auto" width="{{width}}" height="{{height}}" src="https://www.youtube.com/embed/{{page.videoid}}" frameborder="0"
-									allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<center>
+										<iframe class="d-block mx-auto" width="{{width}}" height="{{height}}" src="https://www.youtube.com/embed/{{page.videoid}}" frameborder="0"
+										allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</center>
+								{% when 'facebook' %}
+									<center>
+										<div class="fb-video" data-href="{{page.videolink}}" data-show-text="false" data-width="">
 									</center>
 								{% endcase %}
 								<br>
