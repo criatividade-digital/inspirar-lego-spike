@@ -1,0 +1,13 @@
+---
+layout: blog-post
+title:  SPIKEHyena
+img: /img/2020/2020-07-02-tractor.jpg
+author: Young-jun YI
+type: facebook
+videolink: https://www.facebook.com/youngjun.yi.7/videos/3273501566208677
+original: https://www.facebook.com/groups/SPIKEcommunity/permalink/1132313740480190/
+category: Veiculos
+tags: [LEGO, SPIKE, Expansion Set]
+---
+**Trator**<br>
+Reconstrução LEGO Ferguson Traktor 1951.
