@@ -7,7 +7,7 @@ type: facebook
 videolink: https://www.facebook.com/youngjun.yi.7/videos/3273497592875741
 original: https://www.facebook.com/groups/SPIKEcommunity/permalink/1132313367146894/
 category: Robos
-tags: [LEGO, SPIKE,Expansion Set]
+tags: [LEGO, SPIKE,Expansion Set, Ultrassom, Cores]
 ---
 "Fun-e"<br>
 Core set+Expansion set.
