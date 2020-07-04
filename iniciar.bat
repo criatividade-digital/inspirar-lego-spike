@@ -1,1 +1,1 @@
-bundle exec jekyll server --incremental
+bundle exec jekyll server

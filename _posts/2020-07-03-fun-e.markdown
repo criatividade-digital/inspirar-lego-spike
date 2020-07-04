@@ -1,0 +1,13 @@
+---
+layout: blog-post
+title: Fun-e
+img: /img/2020/2020-07-03-fun-e.jpg
+author: FUNERS Junastudio
+type: facebook
+videolink: https://www.facebook.com/youngjun.yi.7/videos/3273497592875741
+original: https://www.facebook.com/groups/SPIKEcommunity/permalink/1132313367146894/
+category: Robos
+tags: [LEGO, SPIKE,Expansion Set]
+---
+"Fun-e"<br>
+Core set+Expansion set.
