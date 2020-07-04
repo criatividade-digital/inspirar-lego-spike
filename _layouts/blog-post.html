@@ -89,6 +89,10 @@
 									<center>
 										<div class="fb-video" data-href="{{page.videolink}}" data-show-text="false" data-width="">
 									</center>
+								{% when 'image' %}
+								<figure class="figure-img">
+									<img class="img-responsive" src="{{page.img | relative_url}}" alt="">
+								</figure>
 								{% endcase %}
 								<br>
 								<p><b>Autor:</b> {{page.author}}<br>
