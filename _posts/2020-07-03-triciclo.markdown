@@ -5,7 +5,7 @@ img: /img/2020/2020-07-03-triciclo.jpg
 author: Ahmad Sahar
 type: image
 original: https://www.facebook.com/groups/SPIKEcommunity/permalink/1132768293768068/
-category: Veiculo
+category: Veiculos
 tags: [LEGO, SPIKE]
 ---
 Fiz o meu primeiro modelo no stud.io! Thanks to Philo Hurbain for his kind assistance.
