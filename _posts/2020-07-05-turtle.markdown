@@ -1,0 +1,14 @@
+---
+layout: blog-post
+title:  Baby Turtle
+img: /img/2020/2020-07-05-turtle.jpg
+author: Creator Academy Australia
+type: youtube
+videoid: gBGWlKSIyfM
+width: 1190
+height: 840
+original: https://youtu.be/gBGWlKSIyfM
+category: Criaturas
+tags: [LEGO, SPIKE]
+---
+Developed in collaboration with Project Bucephalus, Bike Prime is a fun and unique demonstration of a self-balancing motorbike design on the LEGO® Education SPIKE™ Prime platform.
