@@ -8,7 +8,6 @@ videoid: dbADsow2jto
 original: https://youtu.be/dbADsow2jto
 category: Robos
 tags: [LEGO, SPIKE, Robôs, Expansion Set]
-sticky: 1
 ---
 Meet my LEGO Education Spike Prime swirling robot. Fun with mechanics and coding!
 Want to build your own LEGO SPIKE Prime SwirlBot? See my "How To Build" video, the link to the free PDF building instructions is in the description of that video.
